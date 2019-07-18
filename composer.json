@@ -1,0 +1,24 @@
+{
+    "name": "solidworx/burial",
+    "description": "Bury dead code in a project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SolidWorx",
+            "email": "open-source@solidworx.co"
+        }
+    ],
+    "require": {
+        "php": ">= 7.1",
+        "ext-json": "*",
+        "symfony/console": "^4.3",
+        "nikic/php-parser": "^4.2",
+        "composer/composer": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolidWorx\\Burial\\": "src"
+        }
+    }
+}
