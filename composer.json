@@ -1,6 +1,7 @@
 {
     "name": "solidworx/burial",
     "description": "Bury dead code in a project",
+    "keywords": ["dead-code-removal", "dead-code-elimination", "dead-code"],
     "type": "library",
     "license": "MIT",
     "authors": [
